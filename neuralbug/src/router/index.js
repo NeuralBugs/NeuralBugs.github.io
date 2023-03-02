@@ -3,12 +3,12 @@ import HomeView from "../views/HomeView.vue";
 import Carrousel from "../views/Carrousel.vue";
 const routes = [
   {
-    path: "/",
+    path: "/home",
     name: "home",
     component: HomeView,
   },
   {
-    path: "/Carrousel",
+    path: "/",
     name: Carrousel,
     component: Carrousel,
   },
